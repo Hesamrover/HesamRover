@@ -399,7 +399,8 @@ img {
       line-height: 20px;
       text-align: center;
       padding: 0.4rem;
-      transition: all 0.5s; }
+      transition: all 0.5s;
+      color: #eee; }
       #main-footer .footer-content i:hover {
         background: #ffbc00;
         color: #333; }
