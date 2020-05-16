@@ -1,0 +1,18 @@
+// Vars
+$website-width: 1280px;
+$main-color: #ffbc00;
+$light-color: #eee;
+$medium-color: #ccc;
+$dark-color: #333;
+$khashe-khale: center;
+$bg-image: url("../img/showcase.jpg");
+
+// set text color
+
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
